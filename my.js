@@ -1,8 +1,9 @@
+let bodyElement = document.querySelector("body")
 function chooseDark(){
-    document.querySelector("body").classList.remove("light");
-    document.querySelector("body").classList.add("dark");
+    bodyElement.classList.remove("light");
+    bodyElement.classList.add("dark");
 }
 function chooseLight(){
-    document.querySelector("body").classList.remove("dark");
-    document.querySelector("body").classList.add("light");
+    bodyElement.classList.remove("dark");
+    bodyElement.classList.add("light");
 }

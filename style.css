@@ -1,13 +1,4 @@
-.dark{
-    background-color: black;
-}
-.dark h1{
-    color: white;
-}
-.dark button{
-    background-color: yellow;
-    color: blue;
-}
+
 .light{
     background-color: rgb(222, 245, 14);
 }
@@ -17,4 +8,14 @@
 .light button{
     background-color: aqua;
     color: black;
+}
+.dark{
+    background-color: black;
+}
+.dark h1{
+    color: white;
+}
+.dark button{
+    background-color: yellow;
+    color: blue;
 }

@@ -1,10 +1,8 @@
-console.log(){}
-
-function  chooseDark(){
+function chooseDark(){
     document.querySelector("body").classList.remove("light");
-    document.querySelector("body").classList.remove("dark");
+    document.querySelector("body").classList.add("dark");
 }
-function  chooseLight(){
+function chooseLight(){
     document.querySelector("body").classList.remove("dark");
-    document.querySelector("body").classList.remove("light");
+    document.querySelector("body").classList.add("light");
 }
